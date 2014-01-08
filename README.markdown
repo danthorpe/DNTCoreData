@@ -5,9 +5,7 @@
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Project directory first.
-
-## Requirements
+This is just a simple class to setup a stack for CoreData.
 
 ## Installation
 
