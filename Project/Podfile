@@ -1,7 +1,5 @@
 pod "DNTCoreData", :path => "../DNTCoreData.podspec"
 
-target "Demo" do
-end
-
-target "DemoTests" do
+target :DNTCoreDataTests, :exclusive => true do
+    pod 'OCMock', '>= 2.2.1'
 end

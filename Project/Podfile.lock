@@ -1,0 +1,17 @@
+PODS:
+  - DNTCoreData (0.1.0)
+  - OCMock (2.2.2)
+
+DEPENDENCIES:
+  - DNTCoreData (from `../DNTCoreData.podspec`)
+  - OCMock (>= 2.2.1)
+
+EXTERNAL SOURCES:
+  DNTCoreData:
+    :path: ../DNTCoreData.podspec
+
+SPEC CHECKSUMS:
+  DNTCoreData: 75e1bef076ae4c45f1e7f21cf9864b4c2aea4450
+  OCMock: ffba68873fd32cfd35d885bddad23bfa816da4a3
+
+COCOAPODS: 0.29.0

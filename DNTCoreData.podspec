@@ -7,18 +7,14 @@
 Pod::Spec.new do |s|
   s.name         = "DNTCoreData"
   s.version      = "0.1.0"
-  s.summary      = "A short description of DNTCoreData."
+  s.summary      = "A collection of Core Data related classes and categories."
   s.description  = <<-DESC
-                    An optional longer description of DNTCoreData
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
+                    
                    DESC
-  s.homepage     = "http://EXAMPLE/NAME"
-  s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage     = "http://danthorpe.me"
   s.license      = 'MIT'
-  s.author       = { "Daniel Thorpe" => "dan@blindingskies.com" }
-  s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.author       = { "Daniel Thorpe" => "dan@danthorpe.me" }
+  s.source       = { :git => "git@github.com/danthorpe/DNTCoreData.git", :tag => s.version.to_s }
 
   # s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
@@ -31,6 +27,6 @@ Pod::Spec.new do |s|
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.frameworks = 'CoreData'
+  #s.dependency 'JSONKit', '~> 1.4'
 end
