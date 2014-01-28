@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22BEB82A8E464463887B7E1C /* libPods-DNTCoreDataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E1AD837E5B4555ABA7FD7F /* libPods-DNTCoreDataTests.a */; };
 		30A65C2AF72D45C7860DC8BF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC2A8E9F537451FA0FB2223 /* libPods.a */; };
 		65DBD138187DF3D600205DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DBD137187DF3D600205DC6 /* Foundation.framework */; };
 		65DBD146187DF3D600205DC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DBD145187DF3D600205DC6 /* XCTest.framework */; };
@@ -20,6 +19,11 @@
 		65DBD166187DF5FC00205DC6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DBD164187DF5FC00205DC6 /* Model.xcdatamodeld */; };
 		65DBD167187DF5FC00205DC6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DBD164187DF5FC00205DC6 /* Model.xcdatamodeld */; };
 		65DBD169187DF64700205DC6 /* DNTCoreDataStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DBD168187DF64700205DC6 /* DNTCoreDataStackTests.m */; };
+		65E87BA8189789D10052448B /* DNTFetchedResultsArraySource.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E87BA2189789D10052448B /* DNTFetchedResultsArraySource.m */; };
+		65E87BA9189789D10052448B /* DNTIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E87BA4189789D10052448B /* DNTIncrementalStore.m */; };
+		65E87BB218978BE90052448B /* DNTIncrementalStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E87BAF18978BE90052448B /* DNTIncrementalStoreTests.m */; };
+		65E87BB5189796FF0052448B /* libPods-DNTCoreDataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E87BB4189796FF0052448B /* libPods-DNTCoreDataTests.a */; };
+		65E87BB818979FA70052448B /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65E87BB618979FA70052448B /* Test.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,13 @@
 		65DBD161187DF5D200205DC6 /* NSManagedObjectContext+DNTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+DNTAdditions.m"; sourceTree = "<group>"; };
 		65DBD165187DF5FC00205DC6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		65DBD168187DF64700205DC6 /* DNTCoreDataStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTCoreDataStackTests.m; sourceTree = "<group>"; };
+		65E87BA1189789D10052448B /* DNTFetchedResultsArraySource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTFetchedResultsArraySource.h; sourceTree = "<group>"; };
+		65E87BA2189789D10052448B /* DNTFetchedResultsArraySource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTFetchedResultsArraySource.m; sourceTree = "<group>"; };
+		65E87BA3189789D10052448B /* DNTIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTIncrementalStore.h; sourceTree = "<group>"; };
+		65E87BA4189789D10052448B /* DNTIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTIncrementalStore.m; sourceTree = "<group>"; };
+		65E87BAF18978BE90052448B /* DNTIncrementalStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTIncrementalStoreTests.m; sourceTree = "<group>"; };
+		65E87BB4189796FF0052448B /* libPods-DNTCoreDataTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-DNTCoreDataTests.a"; path = "Pods/build/Debug-iphoneos/libPods-DNTCoreDataTests.a"; sourceTree = "<group>"; };
+		65E87BB718979FA70052448B /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
 		BDC2A8E9F537451FA0FB2223 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7C02A4715147429A9389CE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F7B1422BC09B405D9C65D9D4 /* Pods-DNTCoreDataTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTCoreDataTests.xcconfig"; path = "Pods/Pods-DNTCoreDataTests.xcconfig"; sourceTree = "<group>"; };
@@ -80,11 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DBD146187DF3D600205DC6 /* XCTest.framework in Frameworks */,
-				65DBD149187DF3D600205DC6 /* UIKit.framework in Frameworks */,
 				65DBD147187DF3D600205DC6 /* Foundation.framework in Frameworks */,
+				65DBD149187DF3D600205DC6 /* UIKit.framework in Frameworks */,
+				65DBD146187DF3D600205DC6 /* XCTest.framework in Frameworks */,
 				65DBD14C187DF3D600205DC6 /* libDNTCoreData.a in Frameworks */,
-				22BEB82A8E464463887B7E1C /* libPods-DNTCoreDataTests.a in Frameworks */,
+				65E87BB5189796FF0052448B /* libPods-DNTCoreDataTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +126,7 @@
 		65DBD136187DF3D600205DC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65E87BB4189796FF0052448B /* libPods-DNTCoreDataTests.a */,
 				65DBD137187DF3D600205DC6 /* Foundation.framework */,
 				65DBD145187DF3D600205DC6 /* XCTest.framework */,
 				65DBD148187DF3D600205DC6 /* UIKit.framework */,
@@ -146,6 +158,8 @@
 		65DBD14D187DF3D600205DC6 /* DNTCoreDataTests */ = {
 			isa = PBXGroup;
 			children = (
+				65E87BB618979FA70052448B /* Test.xcdatamodeld */,
+				65E87BAF18978BE90052448B /* DNTIncrementalStoreTests.m */,
 				65DBD168187DF64700205DC6 /* DNTCoreDataStackTests.m */,
 				65DBD14E187DF3D600205DC6 /* Supporting Files */,
 			);
@@ -164,13 +178,41 @@
 		65DBD15D187DF5D200205DC6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				65E87BAB189789DB0052448B /* Basic Core Data */,
+				65E87BAC189789FE0052448B /* Incremental Store */,
+				65E87BAD18978A0C0052448B /* Array Source */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		65E87BAB189789DB0052448B /* Basic Core Data */ = {
+			isa = PBXGroup;
+			children = (
 				65DBD15E187DF5D200205DC6 /* DNTCoreDataStack.h */,
 				65DBD15F187DF5D200205DC6 /* DNTCoreDataStack.m */,
 				65DBD160187DF5D200205DC6 /* NSManagedObjectContext+DNTAdditions.h */,
 				65DBD161187DF5D200205DC6 /* NSManagedObjectContext+DNTAdditions.m */,
 			);
-			name = Classes;
-			path = ../../Classes;
+			name = "Basic Core Data";
+			sourceTree = "<group>";
+		};
+		65E87BAC189789FE0052448B /* Incremental Store */ = {
+			isa = PBXGroup;
+			children = (
+				65E87BA3189789D10052448B /* DNTIncrementalStore.h */,
+				65E87BA4189789D10052448B /* DNTIncrementalStore.m */,
+			);
+			name = "Incremental Store";
+			sourceTree = "<group>";
+		};
+		65E87BAD18978A0C0052448B /* Array Source */ = {
+			isa = PBXGroup;
+			children = (
+				65E87BA1189789D10052448B /* DNTFetchedResultsArraySource.h */,
+				65E87BA2189789D10052448B /* DNTFetchedResultsArraySource.m */,
+			);
+			name = "Array Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +265,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Daniel Thorpe";
+				TargetAttributes = {
+					65DBD143187DF3D600205DC6 = {
+						TestTargetID = 65DBD133187DF3D600205DC6;
+					};
+				};
 			};
 			buildConfigurationList = 65DBD12F187DF3D600205DC6 /* Build configuration list for PBXProject "DNTCoreData" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,8 +369,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DBD163187DF5D200205DC6 /* NSManagedObjectContext+DNTAdditions.m in Sources */,
+				65E87BA9189789D10052448B /* DNTIncrementalStore.m in Sources */,
 				65DBD162187DF5D200205DC6 /* DNTCoreDataStack.m in Sources */,
 				65DBD166187DF5FC00205DC6 /* Model.xcdatamodeld in Sources */,
+				65E87BA8189789D10052448B /* DNTFetchedResultsArraySource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +381,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DBD169187DF64700205DC6 /* DNTCoreDataStackTests.m in Sources */,
+				65E87BB818979FA70052448B /* Test.xcdatamodeld in Sources */,
+				65E87BB218978BE90052448B /* DNTIncrementalStoreTests.m in Sources */,
 				65DBD167187DF5FC00205DC6 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +522,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DNTCoreDataTests/DNTCoreDataTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/daniel/Documents/Work/danthorpe/DNTCoreData/Project/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -489,6 +544,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DNTCoreData/DNTCoreData-Prefix.pch";
 				INFOPLIST_FILE = "DNTCoreDataTests/DNTCoreDataTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/daniel/Documents/Work/danthorpe/DNTCoreData/Project/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -534,6 +593,16 @@
 			);
 			currentVersion = 65DBD165187DF5FC00205DC6 /* Model.xcdatamodel */;
 			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		65E87BB618979FA70052448B /* Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65E87BB718979FA70052448B /* Test.xcdatamodel */,
+			);
+			currentVersion = 65E87BB718979FA70052448B /* Test.xcdatamodel */;
+			path = Test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

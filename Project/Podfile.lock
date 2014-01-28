@@ -1,17 +1,24 @@
 PODS:
-  - DNTCoreData (0.1.0)
+  - CocoaLumberjack (1.6.5.1):
+    - CocoaLumberjack/Core
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.6.5.1)
+  - CocoaLumberjack/Extensions (1.6.5.1):
+    - CocoaLumberjack/Core
+  - Facebook-iOS-SDK (3.11.1)
   - OCMock (2.2.2)
+  - Parse-iOS-SDK (1.2.18):
+    - Facebook-iOS-SDK (~> 3.7)
 
 DEPENDENCIES:
-  - DNTCoreData (from `../DNTCoreData.podspec`)
+  - CocoaLumberjack (~> 1.6.2)
   - OCMock (>= 2.2.1)
-
-EXTERNAL SOURCES:
-  DNTCoreData:
-    :path: ../DNTCoreData.podspec
+  - Parse-iOS-SDK (~> 1.2.17)
 
 SPEC CHECKSUMS:
-  DNTCoreData: 75e1bef076ae4c45f1e7f21cf9864b4c2aea4450
+  CocoaLumberjack: 17803afbade3126a377d32b8d23367264b44ced6
+  Facebook-iOS-SDK: 42a1de39170b858d675c2453d8aace55c51be2bb
   OCMock: ffba68873fd32cfd35d885bddad23bfa816da4a3
+  Parse-iOS-SDK: 48bfd538a107b6e1f29eebe59fa80c0f0b844dd1
 
 COCOAPODS: 0.29.0

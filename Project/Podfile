@@ -1,4 +1,10 @@
-pod "DNTCoreData", :path => "../DNTCoreData.podspec"
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+pod 'CocoaLumberjack', '~> 1.6.2'
+pod 'Parse-iOS-SDK', '~> 1.2.17'
+
+link_with_first_target=false
 
 target :DNTCoreDataTests, :exclusive => true do
     pod 'OCMock', '>= 2.2.1'

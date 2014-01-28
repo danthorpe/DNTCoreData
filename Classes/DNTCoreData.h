@@ -11,5 +11,8 @@
 
 #import "DNTCoreDataStack.h"
 #import "NSManagedObjectContext+DNTAdditions.h"
+#import "DNTIncrementalStore.h"
+#import "DNTParseRemoteStore.h"
+#import "DNTFetchedResultsArraySource.h"
 
 #endif
