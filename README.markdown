@@ -1,18 +1,8 @@
 # DNTCoreData
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/DNTCoreData/badge.png)](http://cocoadocs.org/docsets/DNTCoreData)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/DNTCoreData/badge.png)](http://cocoadocs.org/docsets/DNTCoreData)
-
 ## Usage
 
 This is just a simple class to setup a stack for CoreData.
-
-## Installation
-
-DNTCoreData is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
-
-    pod "DNTCoreData"
 
 ## Author
 
