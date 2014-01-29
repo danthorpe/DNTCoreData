@@ -8,7 +8,6 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 
-    #import <Parse-iOS-SDK/Parse.h>
     #import <CocoaLumberjack/DDLog.h>
     static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 

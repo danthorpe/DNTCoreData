@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DNTCoreData"
-  s.version      = "0.1.1"
+  s.version      = "0.2.1"
   s.summary      = "A collection of Core Data related classes and categories."
   s.description  = <<-DESC
                     A collection of Core Data related classes and categories.
@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.author       = { "Daniel Thorpe" => "dan@danthorpe.me" }
   s.source       = { :git => "https://github.com/danthorpe/DNTCoreData.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '5.0'
-  s.ios.deployment_target = '5.0'
+  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '6.0'
   s.requires_arc = true
   
   s.prefix_header_contents = '''
@@ -33,6 +33,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'CoreData'
   
   s.dependency 'CocoaLumberjack', '~> 1.6.2'
-  s.dependency 'Parse', '~> 1.2.17'
 
 end
