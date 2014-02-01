@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DNTCoreData"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "A collection of Core Data related classes and categories."
   s.description  = <<-DESC
                     A collection of Core Data related classes and categories.
@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/*.h', 'Classes/**/*.h'
   s.frameworks = 'CoreData'
   
-  s.dependency 'CocoaLumberjack', '~> 1.6.2'
+  s.dependency 'CocoaLumberjack', '~> 1.7.0'
 
 end

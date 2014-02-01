@@ -10,6 +10,9 @@
 #import "DNTCoreDataStack.h"
 #import "NSManagedObjectContext+DNTAdditions.h"
 
+#import <CocoaLumberjack/DDLog.h>
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+
 typedef NS_ENUM(NSUInteger, DNTIncrementalStoreManagedObjectContextTarget) {
     DNTIncrementalStoreManagedObjectContextPrimary,
     DNTIncrementalStoreManagedObjectContextBacking
